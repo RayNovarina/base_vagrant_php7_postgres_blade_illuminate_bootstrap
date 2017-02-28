@@ -1,0 +1,26 @@
+{"_comment1": "Note: after running composer update for illuminate 5.1.* i get a dependency err. missing mbstring extension in php.ini. So i did a sudo apt-get install php7.0-mbstring AND the change composer.json to use illuminate 5.4.* and did the composer update again.",
+
+    "name": "rcn/slackforphp",
+    "authors": [
+        {
+            "name": "Ray Novarina",
+            "email": "rnova94037@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "vlucas/phpdotenv": "~1.1",
+        "illuminate/database": "5.1.*",
+        "altorouter/altorouter": "1.1.0",
+        "respect/validation": "^1.1",
+        "duncan3dc/blade": "^3.0",
+        "robmorgan/phinx": "^0.6.6",
+        "symfony/var-dumper": "^3.2",
+        "cocur/slugify": "^2.3",
+        "swiftmailer/swiftmailer": "^5.4",
+        "kunststube/csrfp": "^0.1.0"
+    },
+    "autoload": {
+      "psr-4": { "Acme\\": "src/" }
+    }
+}

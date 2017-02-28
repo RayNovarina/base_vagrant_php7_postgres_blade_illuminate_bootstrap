@@ -1,0 +1,8 @@
+.DS_Store
+cache/
+twig-templates/
+vendor/
+.vagrant
+.env
+scratchpad.php
+phinx.yml
